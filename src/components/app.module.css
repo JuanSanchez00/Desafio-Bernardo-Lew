@@ -1,0 +1,9 @@
+.contenedor {
+	text-align: center;
+}
+
+@media screen and (max-width: 468px) {
+	.titulo {
+		font-size: 27px;
+	}
+}

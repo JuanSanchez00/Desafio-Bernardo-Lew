@@ -1,0 +1,97 @@
+.contenedor {
+    float:left; 
+    border: 1px solid rgba(0,0,0,0.21);
+    border-radius: 11px 11px 11px 11px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 23%;
+}
+
+.contenedor:hover {
+    transition-duration: 0.3s;
+    border: 1px solid black;
+}
+
+.contenedor img {
+    width: 50%;
+}
+
+.nombre {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: bold;
+    float: bottom;
+}
+
+@media screen and (max-width: 2219px) {
+	.contenedor {
+		width: 22%;
+	}
+}
+
+@media screen and (max-width: 1460px) {
+	.contenedor {
+		width: 21%;
+	}
+}
+
+@media screen and (max-width: 1105px) {
+	.contenedor {
+		width: 29%;
+	}
+    .nombre {
+        font-size: 23px;
+    }
+    
+    .precio {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+	.contenedor {
+		width: 28%;
+	}
+}
+
+@media screen and (max-width: 842px) {
+	.contenedor {
+		width: 27%;
+	}
+}
+
+@media screen and (max-width: 714px) {
+	.contenedor {
+		width: 43%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.contenedor {
+		width: 42%;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.contenedor {
+		width: 41%;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	.contenedor {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 468px) {
+	.contenedor {
+		width: 87%;
+	}
+}
